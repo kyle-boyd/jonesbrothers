@@ -27,7 +27,7 @@ export default function Header() {
             </span>
           </div>
 
-          <nav className="hidden lg:flex">
+          <nav className="hidden min-[801px]:flex">
             <ul className="flex items-center list-none m-0 p-0 gap-6">
               <li>
                 <Link
@@ -58,7 +58,7 @@ export default function Header() {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2 text-text hover:text-primary transition-colors"
+            className="hidden max-[800px]:inline-flex p-2 text-text hover:text-primary transition-colors"
             aria-label="Toggle menu"
           >
             <svg

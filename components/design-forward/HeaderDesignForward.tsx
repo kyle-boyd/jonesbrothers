@@ -29,7 +29,7 @@ export default function HeaderDesignForward() {
             </span>
           </div>
 
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden min-[801px]:flex items-center gap-8">
             <Link
               href="#services"
               className="text-gray-300 hover:text-white transition-colors text-sm font-medium"
@@ -64,7 +64,7 @@ export default function HeaderDesignForward() {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden text-white p-2"
+            className="hidden max-[800px]:inline-flex text-white p-2"
             aria-label="Toggle menu"
           >
             <svg
