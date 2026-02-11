@@ -7,19 +7,19 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row gap-6">
         <Link
           href="/modern"
-          className="px-10 py-4 bg-gray-900 text-white no-underline rounded-lg hover:bg-gray-700 transition-colors text-lg font-medium min-w-[140px] text-center"
+          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
         >
           Option 1
         </Link>
         <Link
           href="/traditional"
-          className="px-10 py-4 bg-gray-900 text-white no-underline rounded-lg hover:bg-gray-700 transition-colors text-lg font-medium min-w-[140px] text-center"
+          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
         >
           Option 2
         </Link>
         <Link
           href="/design-forward"
-          className="px-10 py-4 bg-gray-900 text-white no-underline rounded-lg hover:bg-gray-700 transition-colors text-lg font-medium min-w-[140px] text-center"
+          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
         >
           Option 3
         </Link>
