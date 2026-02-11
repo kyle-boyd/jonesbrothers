@@ -11,8 +11,8 @@ export default function HeaderTraditional() {
 
   return (
     <>
-      <header className="sticky top-0 z-[100] bg-white border-b-2 border-gray-300 shadow-md">
-        <div className="container flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 lg:py-6 z-[100]">
+      <header className="sticky top-0 z-[350] bg-white border-b-2 border-gray-300 shadow-md">
+        <div className="container flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 lg:py-6">
           <div className="logo flex items-center justify-center gap-2">
             <Image
               src={asset("/images/logo.svg")}

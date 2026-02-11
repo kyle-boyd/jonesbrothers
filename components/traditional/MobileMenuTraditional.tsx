@@ -15,6 +15,16 @@ export default function MobileMenuTraditional({ isOpen, onClose }: MobileMenuTra
           isOpen ? "left-0" : "-left-[400px]"
         }`}
       >
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute top-4 right-4 p-2 text-gray-800 hover:text-primary transition-colors"
+          aria-label="Close menu"
+        >
+          <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
         <ul className="navbar--items list-none m-0 p-0 pt-16">
           <li className="mb-4">
             <Link

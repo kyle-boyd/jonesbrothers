@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "CHOKIDAR_USEPOLLING=1 next dev",
+    "dev:clean": "lsof -ti:3000 | xargs kill -9 2>/dev/null; sleep 1; npm run dev",
+    "dev:safe": "CHOKIDAR_USEPOLLING=1 next dev",
+    "dev:turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

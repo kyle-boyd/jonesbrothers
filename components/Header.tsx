@@ -11,8 +11,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-[100] bg-white shadow-[0_1px_1px_hsl(0deg_0%_0%_/_0.015),0_2px_2px_hsl(0deg_0%_0%_/_0.015),0_4px_4px_hsl(0deg_0%_0%_/_0.015),0_8px_8px_hsl(0deg_0%_0%_/_0.015),0_16px_16px_hsl(0deg_0%_0%_/_0.015)]">
-        <div className="container flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 lg:py-6 z-[100]">
+      <header className="sticky top-0 z-[350] bg-white shadow-[0_1px_1px_hsl(0deg_0%_0%_/_0.015),0_2px_2px_hsl(0deg_0%_0%_/_0.015),0_4px_4px_hsl(0deg_0%_0%_/_0.015),0_8px_8px_hsl(0deg_0%_0%_/_0.015),0_16px_16px_hsl(0deg_0%_0%_/_0.015)]">
+        <div className="container flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 lg:py-6">
           <div className="logo flex items-center justify-center gap-2 sm:gap-3">
             <Image
               src={asset("/images/logo.svg")}

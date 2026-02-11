@@ -11,7 +11,7 @@ export default function HeaderDesignForward() {
 
   return (
     <>
-      <header className="sticky top-0 z-[100] bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-[#1a1a1a]">
+      <header className="sticky top-0 z-[350] bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-[#1a1a1a]">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 lg:px-12 py-4">
           <div className="logo flex items-center gap-3">
             <div className="relative">
