@@ -11,7 +11,7 @@ export default function MobileMenuModern({ isOpen, onClose }: MobileMenuModernPr
   return (
     <>
       <nav
-        className={`lg:hidden sliding-navbar fixed top-0 left-0 h-screen w-[min(300px,85vw)] bg-white/98 backdrop-blur-md transition-all duration-500 ease-in-out z-[300] shadow-2xl ${
+        className={`lg:hidden sliding-navbar fixed top-0 h-screen w-[min(300px,85vw)] bg-white/98 backdrop-blur-md transition-all duration-500 ease-in-out z-[300] shadow-2xl ${
           isOpen ? "left-0" : "-left-[400px]"
         }`}
       >

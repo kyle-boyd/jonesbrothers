@@ -11,7 +11,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <>
       <nav
-        className={`lg:hidden sliding-navbar fixed top-0 left-0 h-screen w-[min(300px,85vw)] bg-white transition-all duration-[800ms] ease-in-out z-[300] rounded-r-[36px] pt-12 ${
+        className={`lg:hidden sliding-navbar fixed top-0 h-screen w-[min(300px,85vw)] bg-white transition-all duration-[800ms] ease-in-out z-[300] rounded-r-[36px] pt-12 ${
           isOpen ? "left-0" : "-left-[400px]"
         }`}
       >

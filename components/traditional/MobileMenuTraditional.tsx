@@ -11,7 +11,7 @@ export default function MobileMenuTraditional({ isOpen, onClose }: MobileMenuTra
   return (
     <>
       <nav
-        className={`lg:hidden sliding-navbar fixed top-0 left-0 h-screen w-[min(280px,85vw)] bg-white border-r-2 border-gray-300 transition-all duration-300 ease-in-out z-[300] shadow-lg ${
+        className={`lg:hidden sliding-navbar fixed top-0 h-screen w-[min(280px,85vw)] bg-white border-r-2 border-gray-300 transition-all duration-300 ease-in-out z-[300] shadow-lg ${
           isOpen ? "left-0" : "-left-[400px]"
         }`}
       >
