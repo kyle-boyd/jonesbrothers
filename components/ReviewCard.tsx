@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/site";
 
 interface ReviewCardProps {
   reviewerImage: string;
@@ -20,7 +21,7 @@ export default function ReviewCard({ reviewerImage, reviewText }: ReviewCardProp
           {[...Array(5)].map((_, i) => (
             <Image
               key={i}
-              src="/images/star.svg"
+              src={asset("/images/star.svg")}
               alt="Star"
               width={20}
               height={20}

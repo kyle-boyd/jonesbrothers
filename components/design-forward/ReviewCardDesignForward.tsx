@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/site";
 
 interface ReviewCardDesignForwardProps {
   reviewerImage: string;
@@ -22,7 +23,7 @@ export default function ReviewCardDesignForward({ reviewerImage, reviewText }: R
           {[...Array(5)].map((_, i) => (
             <Image
               key={i}
-              src="/images/star.svg"
+              src={asset("/images/star.svg")}
               alt="Star"
               width={16}
               height={16}

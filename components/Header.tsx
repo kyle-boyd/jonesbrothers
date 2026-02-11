@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "@/lib/site";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 
@@ -14,7 +15,7 @@ export default function Header() {
         <div className="container flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 lg:py-6 z-[100]">
           <div className="logo flex items-center justify-center gap-2 sm:gap-3">
             <Image
-              src="/images/logo.svg"
+              src={asset("/images/logo.svg")}
               alt="Jones Brothers Junk Removal"
               width={48}
               height={48}

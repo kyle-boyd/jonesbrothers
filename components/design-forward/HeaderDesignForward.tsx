@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "@/lib/site";
 import { useState } from "react";
 import MobileMenuDesignForward from "./MobileMenuDesignForward";
 
@@ -15,7 +16,7 @@ export default function HeaderDesignForward() {
           <div className="logo flex items-center gap-3">
             <div className="relative">
               <Image
-                src="/images/logo.svg"
+                src={asset("/images/logo.svg")}
                 alt="Jones Brothers Junk Removal"
                 width={40}
                 height={40}

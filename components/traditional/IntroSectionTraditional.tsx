@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "@/lib/site";
 
 export default function IntroSectionTraditional() {
   return (
@@ -39,7 +40,7 @@ export default function IntroSectionTraditional() {
         <div className="order-1 lg:order-2">
           <div className="relative w-full h-[280px] sm:h-[320px] md:h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/family-hero.jpg"
+              src={asset("/images/family-hero.jpg")}
               alt="Jones Brothers - Family-owned and operated junk removal service in Lancaster"
               fill
               className="object-cover"
