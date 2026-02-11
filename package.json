@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && rm -rf docs && cp -r out docs"
+    "export": "next build && rm -rf docs && cp -r out docs && touch docs/.nojekyll"
   },
   "dependencies": {
     "react": "^18.3.1",
