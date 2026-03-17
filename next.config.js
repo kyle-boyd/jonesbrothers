@@ -6,10 +6,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = isProd
   ? {
       output: 'export',
-      basePath: '/jonesbrothers',
-      assetPrefix: '/jonesbrothers/',
       images: { unoptimized: true },
-      env: { NEXT_PUBLIC_BASE_PATH: '/jonesbrothers' },
     }
   : {
       images: { unoptimized: true },

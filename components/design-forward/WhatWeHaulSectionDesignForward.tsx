@@ -17,6 +17,7 @@ export default function WhatWeHaulSectionDesignForward() {
     "Tools",
     "Warehouse contents",
     "Yard waste",
+    "& much more!",
   ];
 
   return (
@@ -46,7 +47,7 @@ export default function WhatWeHaulSectionDesignForward() {
         <div className="text-center pt-8 border-t border-[#2a2a2a]">
           <p className="text-lg text-gray-400">
             Don&apos;t see what you need?{" "}
-            <a href="tel:+17171234567" className="text-primary hover:text-secondary transition-colors font-semibold">
+            <a href="tel:+17173146018" className="text-primary hover:text-secondary transition-colors font-semibold">
               Give us a call
             </a>
             {" "}— we probably haul it!

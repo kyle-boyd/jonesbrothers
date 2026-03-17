@@ -1,29 +1,25 @@
-import Link from "next/link";
+import HeaderDesignForward from "@/components/design-forward/HeaderDesignForward";
+import FooterDesignForward from "@/components/design-forward/FooterDesignForward";
+import IntroSectionDesignForward from "@/components/design-forward/IntroSectionDesignForward";
+import ServicesSectionDesignForward from "@/components/design-forward/ServicesSectionDesignForward";
+import WhatWeHaulSectionDesignForward from "@/components/design-forward/WhatWeHaulSectionDesignForward";
+import ProcessSectionDesignForward from "@/components/design-forward/ProcessSectionDesignForward";
+import ReviewsSectionDesignForward from "@/components/design-forward/ReviewsSectionDesignForward";
+import ContactSectionDesignForward from "@/components/design-forward/ContactSectionDesignForward";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-8 px-4 sm:px-6">
-      <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Choose a Design</h1>
-      <div className="flex flex-col sm:flex-row gap-6">
-        <Link
-          href="/modern"
-          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
-        >
-          Option 1
-        </Link>
-        <Link
-          href="/traditional"
-          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
-        >
-          Option 2
-        </Link>
-        <Link
-          href="/design-forward"
-          className="px-10 py-4 bg-blue-600 text-white no-underline rounded-lg hover:bg-blue-700 transition-colors text-lg font-medium min-w-[140px] text-center"
-        >
-          Option 3
-        </Link>
-      </div>
-    </main>
+    <div className="min-h-screen bg-[#0a0a0a] text-white overflow-x-hidden">
+      <HeaderDesignForward />
+      <main className="relative z-[1]">
+        <IntroSectionDesignForward />
+        <ServicesSectionDesignForward />
+        <WhatWeHaulSectionDesignForward />
+        <ProcessSectionDesignForward />
+        <ReviewsSectionDesignForward />
+        <ContactSectionDesignForward />
+      </main>
+      <FooterDesignForward />
+    </div>
   );
 }

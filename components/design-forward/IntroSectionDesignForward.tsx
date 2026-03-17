@@ -14,29 +14,29 @@ export default function IntroSectionDesignForward() {
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent">
-            Professional Junk Removal
+            Jonesin&apos; for
             <br />
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              in Lancaster
+              your junk
             </span>
           </h1>
-          
+
           <p className="text-xl lg:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Same-day service. Transparent pricing. We haul it all away so you don&apos;t have to.
+            Family-owned and operated. Same-day service. Transparent pricing. We handle the heavy lifting so you don&apos;t have to.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-16">
             <a
-              href="tel:+17171234567"
+              href="tel:+17173146018"
               className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 text-lg font-semibold w-full sm:w-auto text-center"
             >
-              Call (717) 123-4567
+              Call or Text (717) 314-6018
             </a>
             <Link
               href="#contact"
               className="px-8 py-4 bg-transparent border-2 border-[#2a2a2a] text-white rounded-lg hover:border-primary hover:bg-[#1a1a1a] transition-all duration-300 text-lg font-semibold w-full sm:w-auto text-center"
             >
-              Get Free Estimate
+              Get a Free Estimate
             </Link>
           </div>
           
