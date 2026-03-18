@@ -3,15 +3,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import { asset } from "@/lib/site";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import MobileMenuDesignForward from "./MobileMenuDesignForward";
 
 export default function HeaderDesignForward() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setVisible(currentScrollY < lastScrollY.current || currentScrollY < 10);
+      lastScrollY.current = currentScrollY;
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
-      <header className="sticky top-0 z-[350] bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-[#1a1a1a]">
+      <header className={`sticky top-0 z-[350] bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-[#1a1a1a] transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 lg:px-12 py-4">
           <div className="logo flex items-center gap-3">
             <div className="relative">

@@ -17,6 +17,7 @@ export default function StructuredData() {
       "Furniture Removal",
     ],
     priceRange: "$$",
+    email: "Jonesbrosjunk@gmail.com",
   };
 
   return (

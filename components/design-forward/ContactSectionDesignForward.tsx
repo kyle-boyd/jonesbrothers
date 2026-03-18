@@ -9,7 +9,7 @@ export default function ContactSectionDesignForward() {
               Get a Free, No-Obligation Estimate Today!
             </h2>
             <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-              Same-day service available. No hidden fees, no surprises. Call, text, or reach out on social media.
+              Same-day service available. No hidden fees, no surprises. Call, text, email, or reach out on social media.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-8">
               <a
@@ -17,6 +17,12 @@ export default function ContactSectionDesignForward() {
                 className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 text-lg font-semibold w-full sm:w-auto text-center"
               >
                 Call or Text (717) 314-6018
+              </a>
+              <a
+                href="mailto:Jonesbrosjunk@gmail.com"
+                className="px-8 py-4 bg-transparent border border-primary text-primary hover:bg-primary/10 rounded-lg transition-all duration-300 text-lg font-semibold w-full sm:w-auto text-center"
+              >
+                Email Us
               </a>
             </div>
             <div className="flex items-center justify-center gap-6 mb-12">

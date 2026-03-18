@@ -10,6 +10,11 @@ export default function FooterDesignForward() {
                 (717) 314-6018
               </a>
             </p>
+            <p className="text-gray-400 mb-2">
+              <a href="mailto:Jonesbrosjunk@gmail.com" className="text-primary hover:text-secondary transition-colors">
+                Jonesbrosjunk@gmail.com
+              </a>
+            </p>
             <div className="flex gap-4 mt-3">
               <a
                 href="https://www.facebook.com/jonesbrosjunk"

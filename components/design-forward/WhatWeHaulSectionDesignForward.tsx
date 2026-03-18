@@ -50,6 +50,10 @@ export default function WhatWeHaulSectionDesignForward() {
             <a href="tel:+17173146018" className="text-primary hover:text-secondary transition-colors font-semibold">
               Give us a call
             </a>
+            {" "}or{" "}
+            <a href="mailto:Jonesbrosjunk@gmail.com" className="text-primary hover:text-secondary transition-colors font-semibold">
+              send us an email
+            </a>
             {" "}— we probably haul it!
           </p>
         </div>

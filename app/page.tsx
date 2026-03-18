@@ -9,7 +9,7 @@ import ContactSectionDesignForward from "@/components/design-forward/ContactSect
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white overflow-x-hidden">
+    <div className="min-h-screen bg-[#0a0a0a] text-white overflow-x-clip">
       <HeaderDesignForward />
       <main className="relative z-[1]">
         <IntroSectionDesignForward />
