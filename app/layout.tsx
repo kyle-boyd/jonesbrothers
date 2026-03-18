@@ -3,6 +3,9 @@ import "./globals.css";
 import StructuredData from "@/components/StructuredData";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/images/logo.svg",
+  },
   title: "Jones Brothers Junk Removal - Lancaster Junk Removal You Can Trust",
   description: "At Jones Brothers Junk Removal, we make sure that you receive great service at affordable prices. Top-quality junk hauling and clean outs in Lancaster.",
   keywords: "junk removal, Lancaster, hauling, clean outs, yard debris, furniture removal",
