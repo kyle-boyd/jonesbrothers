@@ -15,11 +15,22 @@ export const metadata: Metadata = {
     description: "Lancaster junk removal you can trust! Great service at affordable prices. Top-quality junk hauling and clean outs.",
     type: "website",
     locale: "en_US",
+    url: "https://www.jonesbrosjunk.com",
+    siteName: "Jones Brothers Junk Removal",
+    images: [
+      {
+        url: "https://www.jonesbrosjunk.com/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jones Brothers Junk Removal",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jones Brothers Junk Removal",
     description: "Lancaster junk removal you can trust! Great service at affordable prices.",
+    images: ["https://www.jonesbrosjunk.com/images/og-image.png"],
   },
   robots: {
     index: true,
